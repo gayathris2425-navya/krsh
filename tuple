@@ -1,0 +1,11 @@
+list=[]
+m=int(input("enter the number of tuples:"))
+for i in range (m):
+    a =int(input("enter the first value"))
+    b =int(input("enter the second value"))
+    list.append((a,b))
+for i in range(m):
+    for j in range(m-1):
+        if(list[j][1]>list[j+1][1]):
+            list[j],list[j+1]=list[j+1],list[j]
+print(list)

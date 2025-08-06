@@ -1,0 +1,12 @@
+a=input("enter the string:")
+flag=0
+n=len(a)
+for i in range(n):
+  for j in range(n):
+    if(i==j):
+       continue
+       if(a[i]==a[j]):
+          flaf=1
+           if(flag==0):
+             print(a[i])
+              flag=0

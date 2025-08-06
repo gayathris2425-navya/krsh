@@ -1,0 +1,23 @@
+import turtle
+
+
+a = turtle.Screen()
+a.bgcolor("black") 
+a.title(" equilateral triangle") 
+
+
+my_turtle = turtle.Turtle()
+my_turtle.pencolor("blue") 
+my_turtle.pensize(10) 
+my_turtle.color("pink")
+
+for _ in range(4):
+    my_turtle.forward(300)
+    my_turtle.left(120)
+    my_turtle.fillcolor("yellow")
+for _ in range(4):
+    my_turtle.forward(300)
+    my_turtle.left(90)
+    my_turtle.fillcolor("yellow")
+
+turtle.done()
